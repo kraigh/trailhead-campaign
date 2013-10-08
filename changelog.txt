@@ -1,0 +1,45 @@
+Changelog:
+1. move css styles Bootstrap 3.0. RC1 to Bootstrap 3.0.  latest version
+change RC1 to //netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css
+2.  move javascript plugins from Bootstrap 3.0. RC1 to Bootstrap 3.0.  latest version
+//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js
+3. move jQuery to latest version jQuery v1.10.2 for Bootstrap 3.0. latest correct working
+4. move to scrollTo plugin to latest version ScrollTo 1.4.6
+5. Change navbar html code sctructure to BS 3.0. latest version
+6. Change classes names in hide menu after click on mobile script 
+
+// jQuery('.navbar .nav > li > a').click(function(){
+		//jQuery('.navbar-collapse.navbar-ex1-collapse.in').removeClass('in').addClass('collapse').css('height', '0');
+//		});
+		//
+		
+7. Move grids columns to Bootstrap 3.0. latest classes: add to columns classes names: [ col-sx-* ] ;  [col-md-* ] 
+
+8. Change carousel some styles
+/assets/css/style.css
+
+line: 332 
+
+.carousel-control.right {
+	/*	right: -50px;  <- removed */
+	..
+	}
+	
+line: 343
+
+.carousel-control.left {
+	/*	 left: -70px; <- removed */
+	..
+	}
+	
+add to line 356
+		.carousel-indicators {
+			..
+			height:20px;
+			..
+			margin-left: -110px;
+			..
+		}
+		
+line:677
+add some styles to fix on @media (max-width:767px) 
