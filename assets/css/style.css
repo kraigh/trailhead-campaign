@@ -60,7 +60,7 @@
 	   
 	  #head-top {
 	  position:relative;
-		/*background:#ECEAD8;*/
+		/*background:#EFE9D8;*/
 		background:url(../../images/field.jpg) no-repeat center;
 		background-size: cover;
 		padding-top:0px;
@@ -131,11 +131,11 @@
 	  
 	#Section-1{
 	background:#A56A56;
-	color:#ECEAD8;
+	color:#EFE9D8;
 	}
 	  
 	  #Section-2{
-		background:#B6A050;
+		background:#DBC97E;
 		color:#1A1A18;
 	  }
 
@@ -171,19 +171,20 @@
 	  }
 	  #Section-3{
 		background: #C5D5C8;
+		color: #1B1B19;
 	  } 
 
 	  
 	  #Section-4{
-		background:#292C37;
-		color:#fff;
+		background:#EFE9D8;
+		color:#1B1B19;
 	  } 
 
 	  #Section-5 {
 /*			background:url(../../images/tree.jpg) no-repeat center -120px;
 			background-size: 1500px;*/
 			background:#A56A56;
-			color:#ECEAD8;
+			color:#EFE9D8;
 	  }
 	  
 	hr{
@@ -465,6 +466,10 @@
 	  -o-transition: 0.25s;
 	  transition: 0.25s;
 	  -webkit-backface-visibility: hidden; 
+	}
+
+	.btn.btn-default {
+		color:#EFE9D8;
 	}
 	
   .btn:hover, 
