@@ -225,6 +225,10 @@
 		padding-top: 20px;
 		padding-bottom: 20px;
 	  }
+
+	  #Section-5 pre {
+	  	margin: 20px !important;
+	  }
 	  
 	hr{
 		margin:40px 0px;
@@ -795,5 +799,9 @@ font-size: 40px;
 	}
 	
 
+	}
+
+	.wufoo-form-container #header {
+		display: none;
 	}
 
